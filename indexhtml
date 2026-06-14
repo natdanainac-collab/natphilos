@@ -1601,10 +1601,11 @@ function switchTab(tab, el) {
 }
 
 // ============================================================
-// API KEY — paste your Gemini key between the quotes below
-// to embed it so students never see a key prompt
+// API KEY — each student enters their own free Gemini key.
+// Do NOT hardcode a key here: this file is public, and any
+// embedded key would be visible to anyone who views source.
 // ============================================================
-const EMBEDDED_KEY = 'AIzaSyC0EbX1AcQ_5y3riy46Ch8cdDKx_KFeXv4';  // e.g. 'AIzaSy...'
+const EMBEDDED_KEY = '';
 
 let apiKey = EMBEDDED_KEY;
 let conversationHistory = [];  // Gemini format: [{role, parts:[{text}]}]
